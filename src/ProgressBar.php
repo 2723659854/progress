@@ -84,7 +84,7 @@ class ProgressBar{
      * @param int $percent 步长
      * @return void
      */
-    public function showProgressBar( int $percent  )
+    protected function showProgressBar( int $percent  )
     {
         /** 如果进度已满100，则不要再刷新进度条 */
         if ($this->flag){
