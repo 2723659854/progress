@@ -1,0 +1,20 @@
+{
+    "name": "xiaosongshu/progress",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Xiaosongshu\\Progressbar\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "xiaosongshu",
+            "email": "2723659854@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    }
+}
