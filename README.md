@@ -17,9 +17,10 @@ $bar->createBar(200);
 $bar->setColor('purple');
 /** 更新进度条 */
 for ($i=1;$i<=10;$i++){
+    //your code ......
     /** 模拟业务耗时 */
     sleep(1);
-    /** 进度条步长 */
+    /** 更新进度条 */
     $bar->advance(2);
 }
 
