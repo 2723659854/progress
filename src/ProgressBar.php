@@ -1,5 +1,5 @@
 <?php
-namespace Xiaosongshu\Progressbar;
+namespace Xiaosongshu\Progress;
 
 class ProgressBar{
     /** 当前数据长度 */
